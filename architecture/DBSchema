@@ -1,0 +1,15 @@
+{
+  "id": "remediation-2026-02-01-001",
+  "embedding": "<vector>",
+  "metadata": {
+    "cve": "CVE-2025-12345",
+    "severity": "High",
+    "resource_type": "k8s-node",
+    "remediation": "OS package patch",
+    "approved_by": "SRE",
+    "environment": "prod",
+    "outcome": "success",
+    "rollback": false,
+    "timestamp": "2026-02-01T10:22:00Z"
+  }
+}
