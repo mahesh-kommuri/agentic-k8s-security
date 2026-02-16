@@ -28,6 +28,20 @@ This enables:
 
 The vector database acts as the long-term memory layer for the agentic system.
 
+## Production-Ready Controls
+
+The system supports environment-aware execution policies.
+
+In production environments:
+- Remediation requires explicit human approval
+- A ServiceNow change request is created and tracked
+- Execution proceeds only after change approval
+- Automated application tests validate remediation success
+- Full audit trails are recorded in a vector database
+
+This ensures safe, compliant, and enterprise-ready automation.
+
+
 
 ## Key Principles
 - Human-in-the-loop by default
