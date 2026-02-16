@@ -1,0 +1,29 @@
++------------------------------+
+|      Vector Database         |
+|  (Patterns, Decisions, Logs) |
++---------------+--------------+
+                ^
+                |
+   Store embeddings + metadata
+                |
++---------------+--------------+
+| Risk & Reasoning Agent       |
+| - Similar past CVEs          |
+| - Prior remediation success |
+| - Failure patterns          |
++---------------+--------------+
+                |
+      Recommendation enriched
+                |
++---------------v--------------+
+| Remediation Planner Agent   |
+| - Uses past fixes           |
+| - Compliance-aware          |
++---------------+--------------+
+                |
+        Approved actions
+                |
++---------------v--------------+
+| Execution + Validation      |
+| Agents write back outcomes  |
++-----------------------------+
