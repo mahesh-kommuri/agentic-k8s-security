@@ -15,6 +15,20 @@ A multi-agent system running on Kubernetes:
 - Requires human authorization
 - Executes and validates fixes
 
+- ## Vector Database for Audit and Reasoning
+
+The system uses a vector database to store historical vulnerability patterns,
+remediation decisions, approvals, and execution outcomes.
+
+This enables:
+- Explainable recommendations based on past actions
+- Faster remediation planning using known-good fixes
+- Audit and compliance evidence retrieval
+- Trend analysis across environments
+
+The vector database acts as the long-term memory layer for the agentic system.
+
+
 ## Key Principles
 - Human-in-the-loop by default
 - Explainable recommendations
