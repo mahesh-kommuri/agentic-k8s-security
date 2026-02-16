@@ -1,13 +1,27 @@
-# Architecture Diagram
+# Agentic Kubernetes Security
 
-![Architecture Diagram](path/to/Image2.png)
+## Overview
+This project demonstrates an open-source, Kubernetes-native Agentic AI workflow that transforms vulnerability alerts into safe, explainable, and human-approved remediation actions.
 
-This layout illustrates the vertical workflow of:
-- Scanner Agent
-- Risk And Reasoning Agent
-- Remediation Planner Agent
-- Approval Agent
-- Execution Agent
-- Validation Agent
+## Problem
+Security tools generate alerts. DevOps teams manually remediate them.
+This increases MTTR, operational risk, and alert fatigue.
 
-All agents work in a sequential flow within the Kubernetes Cluster container, with SRE/Security Engineer positioned on the right side.
+## Solution
+A multi-agent system running on Kubernetes:
+- Scans for vulnerabilities
+- Correlates runtime context
+- Recommends remediation
+- Requires human authorization
+- Executes and validates fixes
+
+## Key Principles
+- Human-in-the-loop by default
+- Explainable recommendations
+- Safe execution with rollback
+- Kubernetes-native design
+- GitOps friendly
+
+## Status
+This is a reference architecture and proof-of-concept intended for education and experimentation.
+<img width="1171" height="541" alt="Agen-k8s-security drawio" src="https://github.com/user-attachments/assets/5530cf16-ebc7-478f-a59c-72398ab6f081" />
