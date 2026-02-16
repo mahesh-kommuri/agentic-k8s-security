@@ -1,0 +1,18 @@
+agentic-k8s-security/
+├── README.md
+├── architecture/
+│   └── agentic-security-architecture.md
+├── agents/
+│   ├── scanner-agent/
+│   ├── risk-analysis-agent/
+│   ├── remediation-planner-agent/
+│   ├── approval-agent/
+│   └── execution-agent/
+├── k8s/
+│   ├── deployments/
+│   ├── rbac/
+│   └── sample-manifests/
+├── demo/
+│   └── demo-flow.md
+├── LICENSE
+└── DISCLAIMER.md
