@@ -1,0 +1,17 @@
+[Vulnerability Scan]
+        ↓
+[LLM Analysis + RAG]
+        ↓
+[Proposed Remediation Plan]
+        ↓
+[OPA Policy Gate]
+        ↓
+[Human Approval]
+        ↓
+[ServiceNow Change Approved]
+        ↓
+[Deterministic Execution]
+        ↓
+[Automated Tests]
+        ↓
+[Vector DB Audit Record]
